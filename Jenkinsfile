@@ -61,7 +61,7 @@ pipeline {
 
         // กำหนดค่าสำหรับจำลอง PROD environment บน Local
         PROD_APP_NAME             = "express-app-prod"
-        PROD_HOST_PORT            = "3000"
+        PROD_HOST_PORT            = "3003"
     }
 
     // กำหนด input parameters สำหรับเลือก Action (Build & Deploy หรือ Rollback)
