@@ -46,7 +46,6 @@ app.get('/api/products', (_: Request, res: Response) => {
   ]
   res.json(products)
 })
-
 // GET /api/orders
 app.get('/api/orders', (_: Request, res: Response) => {
   const orders = [
@@ -57,6 +56,5 @@ app.get('/api/orders', (_: Request, res: Response) => {
   ]
   res.json(orders)
 })
-
 // Start server
 app.listen(port, () => console.log(`Application is running on port ${port}`))
